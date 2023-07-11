@@ -12,7 +12,6 @@
     display: flex;
     justify-content: space-around;
     height: 100%;
-    width: 100%;
     background: rgba(229, 84, 115, 0.10);
 }
 
@@ -67,31 +66,32 @@
 
 /* about section start here  */
 
-.about-container{
+.about-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
     height: 100vh;
     background: #efeff7;
+    padding-top: 50px;
 }
 
-.about-text{
+.about-text {
     width: 40%;
 }
-.about-text>h4{
+
+.about-text>h4 {
     color: rgba(39, 39, 39, 0.60);
     padding-bottom: 10px;
 }
 
-.about-text> h1{
+.about-text>h1 {
     color: #111010;
     font-weight: 700;
     font-size: 30px;
     padding-bottom: 20px;
 }
 
-.about-text>p{
+.about-text>p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
 
@@ -102,12 +102,12 @@
     text-align: center;
 }
 
-.about-flower > img{
+.about-flower>img {
     width: 210px;
     height: 250px;
 }
 
-.about-text > button{
+.about-text>button {
     color: #FFF;
     background-color: #E55473;
     padding: 10px;
@@ -124,6 +124,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+    padding-top: 50px;
 }
 
 
@@ -206,6 +207,7 @@
 /* some-info-section start here  */
 
 .service-info-section {
+    padding-top: 50px;
     display: flex;
     height: 100vh;
     flex-direction: column;
@@ -247,7 +249,7 @@
     background: rgba(229, 84, 115, 0.05);
     display: flex;
     width: 80%;
-    margin: 70px auto;
+    margin: 100px auto;
     align-items: center;
 }
 
@@ -293,8 +295,9 @@
 /* social container style  start here */
 
 .social-container {
+    padding-top: 50px;
     display: flex;
-    background: #FFF;
+    background: #f9f5f5;
     flex-direction: column;
     height: 100vh;
 }
@@ -316,7 +319,6 @@
 }
 
 .social-img {
-    padding-top: 50px;
     display: flex;
     width: 80%;
     margin: auto;
@@ -332,6 +334,7 @@
 /* footer section style start here  */
 
 .footer-container {
+    padding-top: 50px;
     margin-top: 13px;
     display: flex;
     flex-direction: column;
@@ -394,8 +397,8 @@
     flex-direction: column;
     width: 100%;
     background: #111010;
-    height: 43%;
-    margin-top: 50px;
+    height: 40%;
+    margin-top: 63px;
     justify-content: center;
     align-items: center;
 }
@@ -423,11 +426,6 @@
 .footer>small {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
-    font-size: 16px;
     font-weight: 400;
     padding-top: 20px;
 }
-
-
-
-
